@@ -3,6 +3,12 @@
 This repo contains the results of the thesis 'The Functional Preference of Policemen when Using a Reflection Machine in Preventive Frisking'.
 
 First, we included the application ('Application_RM.zip') implemented by Anaïs de Graaf and adjusted by Hannah Venhuizen.
+This application can be used in English or Dutch. Currently, the settings are in English. If it is desired to change this, you need to alter the file "interface.xml":
+<ol>
+	<li> Line 21 → change fx:controller="nl.ru.ai.fm.Controller" to fx:controller="nl.ru.ai.fm.Controller_nl" </li>
+	<li> Line 43 & 65 → change text="because:" to text="omdat:" </li>
+	<li> Line 114 → change 'I don't know' to 'Weet ik niet' </li>
+</ol>
 
 Second, it contains a jupyter notebook including a result analysis of the data. In this notebook, both the data of the survey and application is included.
 
