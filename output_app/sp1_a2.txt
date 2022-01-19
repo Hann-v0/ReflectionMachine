@@ -1,0 +1,284 @@
+case: 1
+____________________________________
+Frisk reaction:
+No
+Deze persoon is gewoon bezig met haar eigen ding. Ze heeft veel spullen bij en het lijkt alsof ze ergens naar toe gaat. Ze ziet er niet verdacht uit. 
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+Yes
+Ze ziet er in mijn idee niet verdacht uit en lijkt gewoon veel spullen bij zich te hebben omdat ze ergens naartoe gaat. 
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 2
+____________________________________
+Frisk reaction:
+No
+Nee, ook zij ziet eruit alsof ze niet iets bij zich zou hebben. Ze lijkt erg op zichzelf, maar zou ook niet iets nodig hebben om zichzelf mee te verdedigen. Daar ziet ze er te sterk voor uit. 
+
+RM reaction:
+How certain are you about your decision to frisk this person (1 = not certain at all, 5 = very certain)? Why?
+3.0
+Nee, ook zij ziet eruit alsof ze niet iets bij zich zou hebben. Ze lijkt erg op zichzelf, maar zou ook niet iets nodig hebben om zichzelf mee te verdedigen. Daar ziet ze er te sterk voor uit. 
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 3
+____________________________________
+Frisk reaction:
+No
+Deze jongen ziet eruit alsof hij geen vlieg kwaad zou doen. Hij ziet er lief en braaf uit en zou daarom niet per se een wapen bij zich dragen. 
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+No
+Omdat hij lief en braaf is ziet hij er juist ook wat onzeker uit, wat ook weer zou kunnen leiden tot het feit dat hij juist iets bij zich draagt. 
+
+change decision?
+RadioButton[id=optionIDK, styleClass=radio-button]'I don't know'
+
+
+case: 4
+____________________________________
+Frisk reaction:
+Yes
+Hij ziet eruit als iemand die wel af en toe wat problemen kan opzoeken. Hij heeft een beetje macho gedrag, wat ik wel associeer met een wapen bij je dragen. 
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+Yes
+Omdat hij er zo macho uit ziet 
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 5
+____________________________________
+Frisk reaction:
+No
+Nee, hij heeft dan wel veel spullen bij zich waar makkelijk een wapen in kan zitten, maar hij ziet eruit alsof hij deze spullen nodig heeft voor zijn werk. Ook door die sjaal lijkt hij toch niet zo verdacht. 
+
+RM reaction:
+Consider that <1% of all weapon carriers of this population are in the age range of [0-10].
+I understood
+
+
+change decision?
+RadioButton[id=optionIDK, styleClass=radio-button]'I don't know'
+
+
+case: 6
+____________________________________
+Frisk reaction:
+Yes
+Ze ziet er wat onzeker uit waardoor ze misschien wel een wapen op zak zou hebben om zichzelf te verdedigen. 
+
+RM reaction:
+Consider that 90% of all people of the population walking past this spot are carrying luggage.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 7
+____________________________________
+Frisk reaction:
+No
+Nee, ze ziet er vrolijk en totaal niet verdacht uit. Ze heeft mensen waar ze mee kan lachen om zich heen waardoor ze ook minder snel de wapens nodig zou hebben. 
+
+RM reaction:
+Consider that 3% of all people of the population walking past this spot are in the age range of [10-20].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 8
+____________________________________
+Frisk reaction:
+Yes
+Deze jongen vertoond weer macho gedrag. Hij ziet er stoer uit. 
+
+RM reaction:
+Consider that 25% of all people of the population walking past this spot carries a weapon.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 9
+____________________________________
+Frisk reaction:
+Yes
+Deze man ziet er ook stoer uit en hij ziet eruit alsof hij wel eens wat problemen kan opzoeken waar hij zijn wapen bij durft te gebruiken. 
+
+RM reaction:
+Consider that 100% of all the people you decided not to frisk up to now are women.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 10
+____________________________________
+Frisk reaction:
+Yes
+Hij ziet er wel slim uit door die bril, maar toch heeft hij iets wat hem verdacht maakt. Het is een bepaalde onzekerheid waardoor ik denk dat hij wel een wapen zou dragen om zichzelf te kunnen verdedigen. 
+
+RM reaction:
+Consider that 0% of all the people you decided not to frisk up to now are men.
+I understood
+
+
+change decision?
+RadioButton[id=optionIDK, styleClass=radio-button]'I don't know'
+
+
+case: 11
+____________________________________
+Frisk reaction:
+Yes
+Ze heeft een grote tas waar wel een wapen in zou kunnen zitten. Ze loopt er ook een beetje verstrooid bij. 
+
+RM reaction:
+Consider that 100% of all the people you decided not to frisk up to now are carrying luggage.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 12
+____________________________________
+Frisk reaction:
+No
+Nee, deze vrouw ziet eruit als een brave, zelfverstandige vrouw die zich wel buiten problemen weet te houden. 
+
+RM reaction:
+Consider that 0% of all the people you decided to frisk up to now are in the age range of [60+].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 13
+____________________________________
+Frisk reaction:
+Yes
+Gaat veel om in groepsverband, dus een grote kans dat hij door groepsdruk wel een wapen draagt. 
+
+
+case: 14
+____________________________________
+Frisk reaction:
+No
+Nee, ziet er als een verstandig persoon uit die te braaf is om een wapen bij zich te dragen. 
+
+RM reaction:
+Consider that 70% of all weapon carriers of this population are women.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Yes, I would frisk this person.'
+
+
+case: 15
+____________________________________
+Frisk reaction:
+Yes
+Alweer wat macho gedrag wat ik associeer met een wapen dragen. 
+
+
+case: 16
+____________________________________
+Frisk reaction:
+No
+Ziet er lief en braaf uit
+
+RM reaction:
+Consider that 0% of all the people you decided not to frisk up to now are men.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 17
+____________________________________
+Frisk reaction:
+Yes
+Deze persoon ziet er een beetje mysterious uit
+
+RM reaction:
+Consider that 83,3% of all the people you decided not to frisk up to now are white.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 18
+____________________________________
+Frisk reaction:
+Yes
+Deze persoon ziet er stoer uit
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+Yes
+Ik denk dat hij wel eens in onenigheid komt. 
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 19
+____________________________________
+Frisk reaction:
+Yes
+Deze persoon ziet er een beetje verward uit, alsof ze alles niet helemaal onder controle heeft. Dit associeer ik met het feit dat ze een wapen zou dragen door het feit dat ze zichzelf kan verdedigen. 
+
+RM reaction:
+Consider that 99% of all people of the population walking past this spot are not in the age range of [60+].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 20
+____________________________________
+Frisk reaction:
+Yes
+Zier er zelfverzekerd uit die er wel van houdt om soms problemen op te zoeken
+
+RM reaction:
+Consider that 100% of all the people you decided to frisk up to now are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+

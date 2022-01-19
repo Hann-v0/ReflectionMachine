@@ -1,0 +1,284 @@
+case: 1
+____________________________________
+Frisk reaction:
+No
+deze persoon doet niets wat er op duidt dat ze een wapen zou hebben. 
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+I don't know
+Naja er zou iets in die tas kunnen zitten, maar dan kan je iedereen met een tas kunnen foullieren. In principe zou de kan 0.7 moeten zijn dat ze een wapen heeft maar dat lijkt me geen reden om te gaan foullieren.
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 2
+____________________________________
+Frisk reaction:
+No
+Kan niet  perse iets zien wat er op duidt dat ze een wapen heeft
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+Yes
+Ze heeft beide handen occupied. Als je een wapen draagt doe je dat misschien niet?
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 3
+____________________________________
+Frisk reaction:
+No
+Ik zou dit af doen als stoerdoenerij
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+No
+nou ergens spreekt het ook van schijt aan het regime en blijkt dat 70% van de samenleving een wapen draagt dus wss heeft hij een wapen.
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Yes, I would frisk this person.'
+
+
+case: 4
+____________________________________
+Frisk reaction:
+Yes
+Is zijn shady verschijning met zn capuchon en zonnebril een goede reden? Hij lijkt schichtig.
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+No
+Ergens baseer ik het alleen op zn uiterlijk
+
+change decision?
+RadioButton[id=optionIDK, styleClass=radio-button]'I don't know'
+
+
+case: 5
+____________________________________
+Frisk reaction:
+No
+Gebaseerd op dat het algoritme goed zou moeten werken is hij verdacht., maar hij kan ook gewoon een toerist zijn met die bagage. Of iemand die tuis komt maar waarom zou iemand een wapen mee op reis nemen
+
+RM reaction:
+Consider that 10% of all people of the population walking past this spot are in the age range of [40-60].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 6
+____________________________________
+Frisk reaction:
+I don't know
+Naja ze ziet er vrij onschuldig uit maar wat zegt dat nou eigenlijkk
+
+RM reaction:
+Consider that 9% of all weapon carriers of this population are in the age range of [40-60].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Yes, I would frisk this person.'
+
+
+case: 7
+____________________________________
+Frisk reaction:
+Yes
+Een jeugdig iemand die stoer aan het doen is in een groepje en door het agoritme geselecteerd wordt. 
+
+RM reaction:
+Consider that 30% of all weapon carriers of this population are not in this person's age range.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 8
+____________________________________
+Frisk reaction:
+Yes
+Deze man ziet er gewoon verdacht uit. Weet niet waarom maar mijn eerste ingeving was " ja hij heeft een wapen" .
+
+RM reaction:
+Consider that 70% of all people of the population walking past this spot owns a weapon.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 9
+____________________________________
+Frisk reaction:
+No
+de enige reden zou zijn omdat hij een nietwesters uiterlijk heeft en dat lijkt me geen goede reden
+
+RM reaction:
+Consider that 100% of all the people you decided not to frisk up to now are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionIDK, styleClass=radio-button]'I don't know'
+
+
+case: 10
+____________________________________
+Frisk reaction:
+Yes
+alles in me zei ja. grote tas, te net hoofd
+
+RM reaction:
+Consider that 33,3% of all the people you decided not to frisk up to now are men.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 11
+____________________________________
+Frisk reaction:
+No
+De onschuld spat van deze vrouw af
+
+RM reaction:
+Consider that 0% of all the people you decided to frisk up to now are in the age range of [40-60].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 12
+____________________________________
+Frisk reaction:
+Yes
+de manier waarop ze kijkt en beweegt 
+
+RM reaction:
+Consider that 80% of all the people you decided to frisk up to now are white.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 13
+____________________________________
+Frisk reaction:
+Yes
+Jongere, trust the algorithm
+
+
+case: 14
+____________________________________
+Frisk reaction:
+Yes
+Dit hele groepje lijkt shady
+
+RM reaction:
+Consider that 81% of all weapon carriers of this population are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 15
+____________________________________
+Frisk reaction:
+No
+Ergens als ik kijk naar hoe hij beweegt zie ik hem geen wapen vasthouden
+
+
+case: 16
+____________________________________
+Frisk reaction:
+Yes
+range 20-40, loopt snellig
+
+RM reaction:
+Up to now, you have decided to frisk 60% of all the people presented to you
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 17
+____________________________________
+Frisk reaction:
+Yes
+Lijkt in de 20-40 te vallen, heeft het kapsel van een supervillain. vrij duistere kleding. weet niet ze straat iets uit. En ze wordt net voor niets door het algoritme gepakt
+
+RM reaction:
+Consider that 100% of all the people you decided to frisk up to now are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 18
+____________________________________
+Frisk reaction:
+Yes
+lijkt een camera te zien en draait snel weg
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+Yes
+verdacht gedrag
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 19
+____________________________________
+Frisk reaction:
+No
+ziet er niet uit als iemand die een wapen draagt
+
+RM reaction:
+Consider that 99% of all people of the population walking past this spot are not in the age range of [0-10].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 20
+____________________________________
+Frisk reaction:
+Yes
+Beetje nerd. Doet geen vlieg kwaad. heeft geen wapen.
+
+RM reaction:
+Consider that 83,3% of all the people you decided not to frisk up to now are white.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Yes, I would not frisk this person.'
+
+

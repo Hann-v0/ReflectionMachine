@@ -1,0 +1,284 @@
+case: 1
+____________________________________
+Frisk reaction:
+Nee
+Persoon lijkt zich gewoon te bewegen zonder directe aanleiding voor fouilleren. Lijkt op een school campus
+
+
+case: 2
+____________________________________
+Frisk reaction:
+Nee
+Idem als de vorige
+
+RM reaction:
+Houdt er rekening mee dat 95% van alle mensen van deze populatie die een wapen dragen ook bagage bij zich dragen.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds niet fouilleren.'
+
+
+case: 3
+____________________________________
+Frisk reaction:
+Nee
+Meneer lijkt onderweg met een specifiek doel. Geen aanleiding
+
+
+case: 4
+____________________________________
+Frisk reaction:
+Ja
+Persoon lijkt wat gehaast weg te lopen en heeft veel bagage bij zich
+
+RM reaction:
+Hoe zeker bent u over uw keuze om deze persoon te fouilleren (1 = helemaal niet zeker, 5 = heel zeker)? Waarom wel/niet?
+4.0
+Persoon lijkt wat gehaast weg te lopen en heeft veel bagage bij zich
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 5
+____________________________________
+Frisk reaction:
+Ja
+Persoon lijkt hier niet te zijn met een specifiek doel en kijkt om zich heen.
+
+RM reaction:
+Houdt er rekening mee dat 100% van alle mensen waarvan u heeft besloten ze te fouilleren bagage dragen.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 6
+____________________________________
+Frisk reaction:
+Ja
+Persoon maakt een afwijkende manouvre door een andere richting op te lopen en zich gehaast te bewegen.
+
+RM reaction:
+Weet u zeker dat uw redenen tot een optimale beslissing leiden? Waarom wel/niet?
+Ja
+Met de informatie die beschikbaar is wel. Daarnaast komt er ook een stukje gevoel bij kijken
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 7
+____________________________________
+Frisk reaction:
+Nee
+Persoon lijkt op zich een duidelijk doel te hebben.  Kijkt achterom naar een persoon waarmee ze vermoedelijk wandelt
+
+RM reaction:
+Houdt er rekening mee dat 70% van alle mensen van deze populatie die een wapen dragen vrouwelijk is.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds niet fouilleren.'
+
+
+case: 8
+____________________________________
+Frisk reaction:
+Ja
+Persoon heeft veel mogelijkheid om een wapen te verstoppen onder kleding en/of tas. Onbekend wat zijn doel hier is, behalve dat hij vlot wegloopt en net op zijn telefoon heeft gekeken.
+
+RM reaction:
+Houdt er rekening mee dat 66,7% van alle mensen waarvan u heeft besloten ze te fouilleren vrouwelijk is.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 9
+____________________________________
+Frisk reaction:
+Nee
+Geen afwijkend gedrag waargenomen.
+
+RM reaction:
+Hoe zeker bent u over uw keuze om deze persoon te fouilleren (1 = helemaal niet zeker, 5 = heel zeker)? Waarom wel/niet?
+3.0
+Geen afwijkend gedrag waargenomen.
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds niet fouilleren.'
+
+
+case: 10
+____________________________________
+Frisk reaction:
+Nee
+Geen afwijkend gedrag behalve een versnelde pas
+
+RM reaction:
+Weet u zeker dat uw redenen tot een optimale beslissing leiden? Waarom wel/niet?
+Nee
+Op basis van ervaring
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds niet fouilleren.'
+
+
+case: 11
+____________________________________
+Frisk reaction:
+Ja
+Persoon steekt zijn middelvinger op waardoor hij blijkbaar aandacht wilt. Dit wijkt af van wat mensen normaal doen (afhankelijk van de wijk waarin je aan het werk bent). 
+
+RM reaction:
+Bent u zeker over uw keuze om deze persoon te fouilleren? Waarom wel/niet?
+Ja
+Afwijkend gedrag ten opzichte van andere personen.
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 12
+____________________________________
+Frisk reaction:
+Ja
+Persoon valt buiten het straatbeeld door dragen van bril en capuchon wat mogelijk een reden kan zijn om niet herkend te worden. 
+
+RM reaction:
+Hoe zeker bent u over uw keuze om deze persoon te fouilleren (1 = helemaal niet zeker, 5 = heel zeker)? Waarom wel/niet?
+4.0
+Persoon valt buiten het straatbeeld door dragen van bril en capuchon wat mogelijk een reden kan zijn om niet herkend te worden. 
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 13
+____________________________________
+Frisk reaction:
+Ja
+Persoon draagt een hoop baggage bij zich. Een koffer valt ook buiten het beeld van de andere zichtbare personen. Een koffer is ook een opslagplaats voor eventuele wapens of het transport daarvan
+
+RM reaction:
+Houdt er rekening mee dat 81% van alle mensen van de populatie die hier voorbij loopt, in de leeftijdscategorie van [20-40] valt.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 14
+____________________________________
+Frisk reaction:
+Nee
+Geen afwijkend gedrag
+
+RM reaction:
+Houdt er rekening mee dat 50% van alle mensen van de populatie die hier voorbij loopt vrouwelijk is.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds niet fouilleren.'
+
+
+case: 15
+____________________________________
+Frisk reaction:
+Nee
+Wel afwijkend gedrag, maar geen directe aanleiding tot fouilleren. Ze loopt met andere personen waardoor ik dan de hele groep zou fouilleren ipv alleen deze persoon
+
+RM reaction:
+Houdt er rekening mee dat 70% van alle mensen van de populatie die hier voorbij loopt in bezit is van een wapen.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds niet fouilleren.'
+
+
+case: 16
+____________________________________
+Frisk reaction:
+Ja
+Persoon lijkt veel aan zijn kleding te plukken/zitten waardoor hij wat zenuwachtig kan overkomen. Daarnaast komt het veel voor dat mensen die iets gedaan hebben wat niet mag/spullen bij zich hebben die ze niet mogen hebben, sneller gaan plukken of daar aan gaan zitten om te controleren of het er nog zit.
+
+RM reaction:
+Houdt er rekening mee dat 30% van alle mensen van de populatie die hier voorbij loopt mannelijk is.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 17
+____________________________________
+Frisk reaction:
+Ja
+Persoon maakt een gehaaste indruk en kijkt wat om zich heen.
+
+RM reaction:
+Houdt er rekening mee dat 25% van alle mensen waarvan u heeft besloten ze te fouilleren uitheemse kenmerken hebben.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+
+case: 18
+____________________________________
+Frisk reaction:
+Nee
+Geen afwijking geconstateerd. Lijkt rustig in gesprek met persoon naast zich en oog ontspannen
+
+RM reaction:
+Houdt er rekening mee dat 25% van alle mensen waarvan u heeft besloten ze te fouilleren mannelijk is.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds niet fouilleren.'
+
+
+case: 19
+____________________________________
+Frisk reaction:
+Nee
+geen afwijkend gedrag geconstateerd
+
+RM reaction:
+Houdt er rekening mee dat 100% van alle mensen die u NIET heeft uitgekozen om te fouilleren in de leeftijdscategorie van [20-40] valt.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds niet fouilleren.'
+
+
+case: 20
+____________________________________
+Frisk reaction:
+Ja
+Veel tassen bij zich en lijkt het allemaal stevig vast te houden. Met het oogmerk dat 70% van de personen wapens met zich mee draagt, deze op steekproef.
+
+RM reaction:
+Houdt er rekening mee dat 80% van alle mensen waarvan u heeft besloten ze te fouilleren mannelijk is.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Nee, ik zou deze persoon nog steeds fouilleren.'
+
+

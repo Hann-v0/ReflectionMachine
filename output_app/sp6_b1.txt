@@ -1,0 +1,284 @@
+case: 1
+____________________________________
+Frisk reaction:
+Yes
+They carry a bag, so they could possibly carry a weapon in this.
+
+
+case: 2
+____________________________________
+Frisk reaction:
+No
+Ze ziet er net uit en educated en wat ouder, ik denk niet dat zij een wapen zou hebben.
+
+RM reaction:
+Consider that 70% of all people of the population walking past this spot owns a weapon.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 3
+____________________________________
+Frisk reaction:
+Yes
+Hij heeft een tas bij en draagt een joggingbroek, ook is hij niet blank, en ik denk dat ik wel het vooroordeel heb dat mensen van een andere etniciteit vaker een wapen dragen. (de meeste andere mensen in het filmpje lijken iig blank)
+
+
+case: 4
+____________________________________
+Frisk reaction:
+Yes
+Normaal niet maar omdat bij deze populatie de kans 70% is wel, vooral omdat ze jonger is en een tas bij heeft. 
+
+RM reaction:
+Consider that 100% of all the people you decided to frisk up to now are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 5
+____________________________________
+Frisk reaction:
+Yes
+Ze is weer jonger en heeft een tas bij, al moet ik wel zeggen dat ze er ook weer iets netter uitziet. Het is een beetje suspicious dat ze daar gaat zitten. 
+
+RM reaction:
+Consider that 100% of all the people you decided not to frisk up to now are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 6
+____________________________________
+Frisk reaction:
+Yes
+Hij is vrij jong en heeft een hele grote tas bij, ook lijkt het alsof hij haast heeft en daar misschien snel weg wil ofzo.
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+Yes
+De kans is groot dat deze persoon een wapen bij heeft, 70%, dus dat vind ik al vrij goede reden opzich om hem te doorzoeken. 
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 7
+____________________________________
+Frisk reaction:
+No
+Ze ziet er wat netter uit en heeft iets van boeken bij ofzo, het lijkt alsof ze van studie of werk afkomt. Ik denk dat mensen met een studie of kantoorbaan minder snel een wapen dragen. 
+
+RM reaction:
+Consider that 70% of all weapon carriers of this population are women.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Yes, I would frisk this person.'
+
+
+case: 8
+____________________________________
+Frisk reaction:
+No
+Ik heb net begrepen dat 70% vd mensen die een wapen dragen een vrouw is, dus de kans is klein dat deze jongen een wapen heeft, ook is hij blank en zijn kleren zijn vrij net.
+
+RM reaction:
+Consider that 16,7% of all the people you decided to frisk up to now have exotic features.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 9
+____________________________________
+Frisk reaction:
+Yes
+Jong, vrouw, grote tas, kijkt om zich heen. 
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+Yes
+Ze past bij mijn vooroordelen van mensen die een wapen zouden dragen. 
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 10
+____________________________________
+Frisk reaction:
+Yes
+Ja, ze is vrouw, heeft een tas en ze rookt. Het roken geeft misschien aan dat ze minder hoog opgeleid is. 
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+I don't know
+Misschien let ik wel op de verkeerde dingen. 
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 11
+____________________________________
+Frisk reaction:
+Yes
+Hij steekt zijn middelvinger op en heeft er dus problemen mee om in de gaten gehouden te worden. Dat zou kunnen betekenen dat hij iets te verbergen heeft. 
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+No
+Hij zou ook gewoon privacy belangrijk kunnen vinden
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 12
+____________________________________
+Frisk reaction:
+Yes
+Hij verbergt een beetje zijn identiteit met de capuchon en zonnebril, is verdacht. 
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+No
+Het zou ook gewoon zijn stijl kunnen zijn, maar je moet je beslissing ergens op baseren. 
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 13
+____________________________________
+Frisk reaction:
+No
+Hij lijkt gewoon tourist ofzo of op reis voor zijn werk. Het is ook een man en het waren dus vaker vrouwen die een wapen hadden. 
+
+RM reaction:
+Consider that 50% of all people of the population walking past this spot are women.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 14
+____________________________________
+Frisk reaction:
+Yes
+Ze is jong, een vrow en heeft een grote tas bij. Ze ziet er ook niet perse net of rijk uit ofzo. 
+
+RM reaction:
+Consider that 99% of all people of the population walking past this spot are not in the age range of [0-10].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 15
+____________________________________
+Frisk reaction:
+No
+Ze komt heel vrolijk en relaxt over, ze heeft geen moeite met in de camera kijken dus het maakt haar blijkbaar niet veel uit dat ze gefilmd wordt. Ze is daarentegen wel een vrouw
+
+RM reaction:
+Consider that 85% of all people of the population walking past this spot are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 16
+____________________________________
+Frisk reaction:
+Yes
+Kijkt om zich heen, heeft een schoudertas bij en is alleen, hij is ook jong. 
+
+RM reaction:
+Consider that 1% of all people of the population walking past this spot are in the age range of [0-10].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 17
+____________________________________
+Frisk reaction:
+Yes
+Ja, andere etniciteit, hij heeft een grote tas en heeft haast, kijkt ook om zich heen. 
+
+RM reaction:
+Consider that 50% of all the people you decided to frisk up to now are women.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 18
+____________________________________
+Frisk reaction:
+No
+Hij lijkt educated en is een blanke man. 
+
+RM reaction:
+Consider that 0% of all the people you decided to frisk up to now are in the age range of [0-10].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 19
+____________________________________
+Frisk reaction:
+No
+Ze lijkt iets ouder en heeft misschien werkpapieren in haar hand. Haar outfit is niet niet net. 
+
+RM reaction:
+Consider that 15,4% of all the people you decided to frisk up to now have exotic features.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 20
+____________________________________
+Frisk reaction:
+No
+Ze is ouder en heeft ook wat nettere kleren aan, en is blank. 
+
+RM reaction:
+Up to now, you have decided to frisk 68,4% of all the people presented to you
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+

@@ -1,0 +1,284 @@
+case: 1
+____________________________________
+Frisk reaction:
+No
+He doesn't seem suspicious
+
+
+case: 2
+____________________________________
+Frisk reaction:
+No
+she doesn't seem suspicous
+
+RM reaction:
+Consider that 30% of all weapon carriers of this population are not in this person's age range.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 3
+____________________________________
+Frisk reaction:
+No
+He doesn't seem suspicous (just busy)
+
+
+case: 4
+____________________________________
+Frisk reaction:
+Yes
+There could be something in her bag
+
+RM reaction:
+Up to now, you have decided to frisk 0% of all the people presented to you by the DSS
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 5
+____________________________________
+Frisk reaction:
+Yes
+There could be something in the bag or under the long coat
+
+RM reaction:
+Consider that 100% of all the people you decided to frisk up to now are white.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 6
+____________________________________
+Frisk reaction:
+Yes
+He has a large bag that could hold a weapon
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+No
+It is a sports bag
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 7
+____________________________________
+Frisk reaction:
+Yes
+She is carrying a lot 
+
+RM reaction:
+Consider that 70% of all weapon carriers of this population are women.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 8
+____________________________________
+Frisk reaction:
+Yes
+Due to the bag and big coat, and he is alone looking at his phone
+
+RM reaction:
+Consider that 100% of all the people you decided to frisk up to now are white.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 9
+____________________________________
+Frisk reaction:
+Yes
+They are carrying several bags
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+Yes
+The bags could hold weapons
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 10
+____________________________________
+Frisk reaction:
+Yes
+of the large backpack 
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+Yes
+I should know what she is carrying
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 11
+____________________________________
+Frisk reaction:
+Yes
+he doesn't seem to have much respect so is also more unlikely to respect rules
+
+RM reaction:
+How certain are you about your decision to frisk this person (1 = not certain at all, 5 = very certain)? Why?
+4.0
+he doesn't seem to have much respect so is also more unlikely to respect rules
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 12
+____________________________________
+Frisk reaction:
+Yes
+Sunglasses and hoodie makes it look like he would have something to hide 
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+Yes
+He could get away with something bad happening in public
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 13
+____________________________________
+Frisk reaction:
+Yes
+He is carrying a lot of baggage 
+
+RM reaction:
+Consider that 81% of all weapon carriers of this population are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 14
+____________________________________
+Frisk reaction:
+Yes
+Seems to be carrying something heavy 
+
+RM reaction:
+Consider that 85% of all people of the population walking past this spot are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 15
+____________________________________
+Frisk reaction:
+No
+She seems relaxed 
+
+RM reaction:
+Consider that 9% of all weapon carriers of this population are in the age range of [40-60].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Yes, I would frisk this person.'
+
+
+case: 16
+____________________________________
+Frisk reaction:
+Yes
+A weapon could fit into his bag
+
+RM reaction:
+Consider that 99% of all people of the population walking past this spot are not in the age range of [60+].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 17
+____________________________________
+Frisk reaction:
+Yes
+Because he has a bag and seems to be in a hurry
+
+RM reaction:
+Consider that 66,7% of all the people you decided not to frisk up to now are men.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 18
+____________________________________
+Frisk reaction:
+Yes
+of the bag he is reaching into
+
+RM reaction:
+Consider that 66,7% of all the people you decided not to frisk up to now are carrying luggage.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 19
+____________________________________
+Frisk reaction:
+No
+she is busy with something else so does not seem dangerous
+
+RM reaction:
+Consider that 66,7% of all the people you decided not to frisk up to now are white.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 20
+____________________________________
+Frisk reaction:
+Yes
+She is carrying several bags
+
+RM reaction:
+Consider that 56,2% of all the people you decided to frisk up to now are men.
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
