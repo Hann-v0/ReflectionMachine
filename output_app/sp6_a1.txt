@@ -1,0 +1,284 @@
+case: 1
+____________________________________
+Frisk reaction:
+No
+nothing suspicious
+
+
+case: 2
+____________________________________
+Frisk reaction:
+I don't know
+ze kijkt wel een beetje onderzoekend om haar heen zonder duidelijke reden, maar waar zou ze op uit zijn?
+
+RM reaction:
+Consider that 90% of all people of the population walking past this spot are not in the age range of [40-60].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Yes, I would frisk this person.'
+
+
+case: 3
+____________________________________
+Frisk reaction:
+No
+he is just talking
+
+
+case: 4
+____________________________________
+Frisk reaction:
+I don't know
+why the hell houdt ze schoenen vast? Maar kun je in principe niks mee, soms gebeuren er gewoon wat gekke dingen.
+
+RM reaction:
+Consider that 0% of all the people you decided to frisk up to now are men.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I would not frisk this person.'
+
+
+case: 5
+____________________________________
+Frisk reaction:
+No
+doet gewoon lekker haar ding
+
+RM reaction:
+Consider that 100% of all the people you decided not to frisk up to now are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 6
+____________________________________
+Frisk reaction:
+Yes
+ja, lijkt wat gehaast, grote tas waar van alles in kan zitten
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+Yes
+het vergroot de kansen op iets wat mis kan gaan
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 7
+____________________________________
+Frisk reaction:
+Yes
+kijkt verdacht en onderzoekend om zich heen zonder reden
+
+RM reaction:
+Do you think this person deviates from the population in a particular aspect? Why?
+No
+just a normal person
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 8
+____________________________________
+Frisk reaction:
+No
+hij doet gewoon zijn ding
+
+RM reaction:
+Consider that 75% of all the people you decided not to frisk up to now are white.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 9
+____________________________________
+Frisk reaction:
+Yes
+loopt er anders bij dan de rest
+
+RM reaction:
+Are you sure about your decision to frisk this person? Why?
+I don't know
+
+
+change decision?
+RadioButton[id=optionIDK, styleClass=radio-button]'I don't know'
+
+
+case: 10
+____________________________________
+Frisk reaction:
+No
+just normal
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+I don't know
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 11
+____________________________________
+Frisk reaction:
+No
+gewoon brutale jongen, niks te verbergen, anders trekt die geen aandacht
+
+RM reaction:
+How certain are you about your decision to frisk this person (1 = not certain at all, 5 = very certain)? Why?
+3.0
+gewoon brutale jongen, niks te verbergen, anders trekt die geen aandacht
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 12
+____________________________________
+Frisk reaction:
+Yes
+onherkenbaar
+
+RM reaction:
+Are you sure your focus will lead to an optimal decision? Why?
+Yes
+waarom anders er zo bedekt bij lopen
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'No, I would still frisk this person.'
+
+
+case: 13
+____________________________________
+Frisk reaction:
+No
+niks bijzonders
+
+RM reaction:
+Consider that 1% of all people of the population walking past this spot are in the age range of [0-10].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 14
+____________________________________
+Frisk reaction:
+No
+normaal
+
+RM reaction:
+Consider that 10% of all people of the population walking past this spot are in the age range of [40-60].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 15
+____________________________________
+Frisk reaction:
+No
+doet gewoon lekker gek, zichzelf
+
+RM reaction:
+Consider that 15% of all people of the population walking past this spot are not in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 16
+____________________________________
+Frisk reaction:
+I don't know
+kijkt erg obvious achterom
+
+RM reaction:
+Consider that 90% of all people of the population walking past this spot are not in the age range of [40-60].
+I understood
+
+
+change decision?
+RadioButton[id=optionFrisk, styleClass=radio-button]'Yes, I would frisk this person.'
+
+
+case: 17
+____________________________________
+Frisk reaction:
+I don't know
+hij rent, gehaast
+
+RM reaction:
+Consider that 0% of all the people you decided to frisk up to now are in the age range of [60+].
+I understood
+
+
+change decision?
+RadioButton[id=optionIDK, styleClass=radio-button]'I don't know'
+
+
+case: 18
+____________________________________
+Frisk reaction:
+No
+why?
+
+RM reaction:
+Consider that 40% of all the people you decided to frisk up to now are women.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 19
+____________________________________
+Frisk reaction:
+No
+niks bijzonders
+
+RM reaction:
+Consider that 100% of all the people you decided to frisk up to now are in the age range of [20-40].
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
+case: 20
+____________________________________
+Frisk reaction:
+No
+just normal
+
+RM reaction:
+Consider that 15,4% of all the people you decided not to frisk up to now have exotic features.
+I understood
+
+
+change decision?
+RadioButton[id=optionNotFrisk, styleClass=radio-button]'No, I still would not frisk this person.'
+
+
