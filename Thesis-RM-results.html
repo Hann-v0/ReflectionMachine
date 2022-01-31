@@ -13981,7 +13981,7 @@ Before we begin, we load the data:</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Text">Text<a class="anchor-link" href="#Text">&#182;</a></h4><p>First, we will look at the data of the pilot experiment with the students. Note that the output of the next cells should be interpreted as participant 1 - participant 9 for every answer given, such that for each index i in all arrays, i is always the same participant in another array.</p>
+<h4 id="Text">Text<a class="anchor-link" href="#Text">&#182;</a></h4><p>First, we will look at the data of the pilot experiment with the students. Note that 'sp' indicates that it is about a student participant and the number refers to the particular participant. In column 1 the responses after part A are shown, whereas in column 2 the responses after part B are shown.</p>
 
 </div>
 </div>
@@ -14394,7 +14394,7 @@ pp1 (B-&gt;A)      Good;            Good;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Analysis">Analysis<a class="anchor-link" href="#Analysis">&#182;</a></h4><p>Not much is going on here, we see that they all rank the quality with 'Good' (4/5) in the survey after part A, and one participant (p2) switched from 'very good' after part A to 'good' after part B. When he rated with 'very good' he motivated his answer with <em>'Sometimes suggestive'</em>. Another participant motivated his answer with <em>'I hover between 3 and 4. The strength of the reporting officer must also be taken into account in his or her decision.'</em> (p1 - part B), which I don't quite understand.</p>
+<h4 id="Analysis">Analysis<a class="anchor-link" href="#Analysis">&#182;</a></h4><p>Nothing stands out here, we see that they all rank the quality with 'Good' (4/5) in the survey after part A, and one participant (p2) switched from 'very good' after part A to 'good' after part B. When he rated with 'very good' he motivated his answer with <em>'Sometimes suggestive'</em>. Another participant motivated his answer with <em>'I hover between 3 and 4. The strength of the reporting officer must also be taken into account in his or her decision.'</em> (p1 - part B), which I don't quite understand.</p>
 <p>Now, we look at the uninformed condition:</p>
 
 </div>
@@ -14516,10 +14516,10 @@ However, motivating "Good", he wrote: <em>"The questions made me think a little 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">statements</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="n">participant</span><span class="o">=</span><span class="s1">&#39;students&#39;</span><span class="p">,</span> <span class="n">dss</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">statements</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="n">participant</span><span class="o">=</span><span class="s1">&#39;students&#39;</span><span class="p">,</span><span class="n">dss</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14889,7 +14889,7 @@ pp4 (A-&gt;B)      Strongly disagree;  Strongly disagree;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.2-Visualization-of-the-decision-of-participants-whether-or-not-they-want-to-frisk">1.2 Visualization of the decision of participants whether or not they want to frisk<a class="anchor-link" href="#1.2-Visualization-of-the-decision-of-participants-whether-or-not-they-want-to-frisk">&#182;</a></h2><p>In the next cell, we will visualize the first part of the data. This contains the answers of all participants of all cases. The columns represent the participants, whereas the rows indicate the case. Although the participants have seen a different order of the cases, we ordered them in such a way that for every row it holds that it was the same case for all participants.</p>
+<h2 id="2.1-Visualization-of-the-decision-of-participants-whether-or-not-they-want-to-frisk">2.1 Visualization of the decision of participants whether or not they want to frisk<a class="anchor-link" href="#2.1-Visualization-of-the-decision-of-participants-whether-or-not-they-want-to-frisk">&#182;</a></h2><p>In the next cell, we will visualize the first part of the data. This contains the answers of all participants of all cases. The columns represent the participants, whereas the rows indicate the case. Although the participants have seen a different order of the cases, we ordered them in such a way that for every row it holds that it was the same case for all participants.</p>
 <p>However, this automatically implies that for some participants case 0 is not the first case they saw (but case 8 was their first, then uptil 19 and then they saw case 0-7). This holds for participant 0, 1 and 2. Participant 3 and 4 did have case 0 as their first case uptil 19.</p>
 
 </div>
@@ -15120,7 +15120,7 @@ pp4 (A-&gt;B)      Strongly disagree;  Strongly disagree;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.2.1-Analysis">1.2.1 Analysis<a class="anchor-link" href="#1.2.1-Analysis">&#182;</a></h3><p>We can see that there is a large variety in within as well as in between subjects. Let's try to filter out the ones they did agree upon in between subject.</p>
+<h3 id="2.1.1-Analysis">2.1.1 Analysis<a class="anchor-link" href="#2.1.1-Analysis">&#182;</a></h3><p>We can see that there is a large variety in within as well as in between subjects. Let's try to filter out the ones they did agree upon in between subject.</p>
 
 </div>
 </div>
@@ -15149,12 +15149,12 @@ pp4 (A-&gt;B)      Strongly disagree;  Strongly disagree;
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>     p0   p1   p2   p3   p4
-5   Yes  Yes  Yes  Yes  Yes
-11  Yes  Yes  Yes  Yes  Yes
-    p0  p1  p2  p3  p4
+<pre>    p0  p1  p2  p3  p4
 8   No  No  No  No  No
 17  No  No  No  No  No
+     p0   p1   p2   p3   p4
+5   Yes  Yes  Yes  Yes  Yes
+11  Yes  Yes  Yes  Yes  Yes
 </pre>
 </div>
 </div>
@@ -15276,7 +15276,7 @@ pp4 (A-&gt;B)      Strongly disagree;  Strongly disagree;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.3-Cluster-motivations">1.3 Cluster motivations<a class="anchor-link" href="#1.3-Cluster-motivations">&#182;</a></h2><p>In order to understand the decisions of the participants, we have to dive deeper into the motivations behind the decisions whether to frisk or not. After eye-balling the motivations of the possible answers participants gave, we divided it into 6 clusters why people chose to frisk an individual; and 5 distinct clusters why people chose not to frisk an individual. In some cases, participants gave multiple reasons why they wanted to (not) frisk a particular individual. The 6 clusters with reasons to frisk are:</p>
+<h2 id="2.2-Cluster-motivations">2.2 Cluster motivations<a class="anchor-link" href="#2.2-Cluster-motivations">&#182;</a></h2><p>In order to understand the decisions of the participants, we have to dive deeper into the motivations behind the decisions whether to frisk or not. After eye-balling the motivations of the possible answers participants gave, we divided it into 6 clusters why people chose to frisk an individual; and 5 distinct clusters why people chose not to frisk an individual. In some cases, participants gave multiple reasons why they wanted to (not) frisk a particular individual. The 6 clusters with reasons to frisk are:</p>
 <ul>
 <li>1) distinct pace</li>
 <li>2) individual is alone</li>
@@ -15328,7 +15328,7 @@ pp4 (A-&gt;B)      Strongly disagree;  Strongly disagree;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.3.1-Visualizing-the-motivations">1.3.1 Visualizing the motivations<a class="anchor-link" href="#1.3.1-Visualizing-the-motivations">&#182;</a></h3><p>Here, we will visualize the motivations together with the decisions.</p>
+<h3 id="2.2.1-Visualizing-the-motivations">2.2.1 Visualizing the motivations<a class="anchor-link" href="#2.2.1-Visualizing-the-motivations">&#182;</a></h3><p>Here, we will visualize the motivations together with the decisions.</p>
 
 </div>
 </div>
@@ -15666,7 +15666,7 @@ pp4 (A-&gt;B)      Strongly disagree;  Strongly disagree;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.3.2-Analysis">1.3.2 Analysis<a class="anchor-link" href="#1.3.2-Analysis">&#182;</a></h3><p>We immediately see a distinction in participants. Participant 0, 2 and 4 are very consistent and elaborate in their motivations. Participant 3 is mediocre in motivating and participant 1 (p1) was not very interested in giving reasons why not to frisk an individual. However, in cases where he did frisk someone he usually gave a reason why.</p>
+<h3 id="2.2.2-Analysis">2.2.2 Analysis<a class="anchor-link" href="#2.2.2-Analysis">&#182;</a></h3><p>We immediately see a distinction in participants. Participant 0, 2 and 4 are very consistent and elaborate in their motivations. Participant 3 is mediocre in motivating and participant 1 (p1) was not very interested in giving reasons why not to frisk an individual. However, in cases where he did frisk someone he usually gave a reason why.</p>
 <p>It also clearly stands out that p1 only had 2 reasons: a suspicious focus (3) and distinct behaviour (5). Now let us look at some details. Again, you can ignore the code below.</p>
 
 </div>
@@ -15702,7 +15702,7 @@ pp4 (A-&gt;B)      Strongly disagree;  Strongly disagree;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.3.3-More-detailed-analysis">1.3.3 More detailed analysis<a class="anchor-link" href="#1.3.3-More-detailed-analysis">&#182;</a></h3><p>Here, you are able to vary yourself between motivations. You can set 'i' as a number of the set {-5,-4, ... ,5,6} and the output will be all cases where that number is given as a motivation. To remind you, we list the numbers again below.</p>
+<h3 id="2.2.3-More-detailed-analysis">2.2.3 More detailed analysis<a class="anchor-link" href="#2.2.3-More-detailed-analysis">&#182;</a></h3><p>Here, you are able to vary yourself between motivations. You can set 'i' as a number of the set {-5,-4, ... ,5,6} and the output will be all cases where that number is given as a motivation. To remind you, we list the numbers again below.</p>
 <ul>
 <li>1) distinct pace</li>
 <li>2) individual is alone</li>
@@ -16071,7 +16071,7 @@ pp4 (A-&gt;B)      Strongly disagree;  Strongly disagree;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.3.4-Coming-back-at-case-5,-8,-11-and-17">1.3.4 Coming back at case 5, 8, 11 and 17<a class="anchor-link" href="#1.3.4-Coming-back-at-case-5,-8,-11-and-17">&#182;</a></h3><p>Remember that at some point we said we would come back at the cases in which every participant agrees. We will try to line up the motivations in which we may see a pattern.</p>
+<h3 id="2.2.4-Coming-back-at-case-5,-8,-11-and-17">2.2.4 Coming back at case 5, 8, 11 and 17<a class="anchor-link" href="#2.2.4-Coming-back-at-case-5,-8,-11-and-17">&#182;</a></h3><p>Remember that at some point we said we would come back at the cases in which every participant agrees. We will try to line up the motivations in which we may see a pattern.</p>
 
 </div>
 </div>

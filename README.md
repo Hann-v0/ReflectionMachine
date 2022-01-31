@@ -10,7 +10,7 @@ This application can be used in English or Dutch. Currently, the settings are in
 	<li> Line 114 → change 'I don't know' to 'Weet ik niet' </li>
 </ol>
 
-Second, it contains an html file constructed from a jupyter notebook including a result analysis of the data. In this notebook, both the data of the survey and application is included.
+Second, it contains an html file constructed from a jupyter notebook including a result analysis of the data. In this notebook, both the data of the survey and application is included. Please note that this notebook is mainly used in order to order the data to write the thesis and is not written in a very formal way, it is mostly background information. The original notebook (i.e. .ipynb file) could be provided if necessary.
 
 Third, it contains two excel files ('StudentExperiment.xlsx' and 'AgentExperiment.xlsx') in which the data is included, one for the student participants and one for the policemen.
 Both the files contains both the raw data and the translated data. An information sheet is included to provide information about the tabs.
