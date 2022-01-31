@@ -13,7 +13,7 @@ This application can be used in English or Dutch. Currently, the settings are in
 Second, it contains an html file constructed from a jupyter notebook including a result analysis of the data. In this notebook, both the data of the survey and application is included. Please note that this notebook is mainly used in order to order the data to write the thesis and is not written in a very formal way, it is mostly background information. The original notebook (i.e. .ipynb file) could be provided if necessary.
 
 Third, it contains two excel files ('StudentExperiment.xlsx' and 'AgentExperiment.xlsx') in which the data is included, one for the student participants and one for the policemen.
-Both the files contains both the raw data and the translated data. An information sheet is included to provide information about the tabs.
+Both the files contain both the raw data and the translated data. An information sheet is included to provide information about the tabs.
 
 Finally, it contains the txt files which are the direct output of the application.
 This can be found in the folder 'output_app'. The first letter indicates whether it was a student (s) or a policeman (p), then p* indicates which participant it points to, then _** represents the design format.
